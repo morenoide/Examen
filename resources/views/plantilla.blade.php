@@ -38,9 +38,11 @@
         </div>
     </nav>
 
+    @yield('contenido')
+    
     <footer class="mt-auto py-3 bg-light fixed-bottom">
         <div class="container">
-            <span class="text-muted">Place sticky footer content here.</span>
+            <span class="text-muted">@yield('footer')</span>
         </div>
     </footer>
 
