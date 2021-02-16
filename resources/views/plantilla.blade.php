@@ -25,10 +25,13 @@
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#">Migraciones</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    <a class="nav-link" href="#">Seeders</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Mail</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -39,10 +42,14 @@
     </nav>
 
     @yield('contenido')
-    
+
     <footer class="mt-auto py-3 bg-light fixed-bottom">
         <div class="container">
-            <span class="text-muted">@yield('footer')</span>
+            <div class="row">
+                <div class="col m-auto text-center">
+                    <span class="text-muted">Alejandro Moreno Jiménez. 2º DAW. 16/02/2021</span>
+                </div>
+            </div>
         </div>
     </footer>
 
