@@ -1,6 +1,9 @@
 <?php
 
+use App\Mail\EmailExamen;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
+use Illuminate\View\ViewName;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,6 +28,10 @@ Route::get('/home', function () {
 Route::get('/migraciones', function () {
     return view('migraciones');
 });
-Route::get('mail', function () {
+Route::get('/mail', function () {
+    $correo = new EmailExamen;
+
+    Mail::to('destinatario@correo.com')->send($correo);
+
     return view('mail');
 });
