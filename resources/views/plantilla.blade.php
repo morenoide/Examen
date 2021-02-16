@@ -22,16 +22,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/home">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Migraciones</a>
+                    <a class="nav-link" href="/migraciones">Migraciones</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Seeders</a>
+                    <a class="nav-link" href="/seeders">Seeders</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Mail</a>
+                    <a class="nav-link" href="/mail">Mail</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">

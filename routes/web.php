@@ -16,6 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('plantilla', function () {
+Route::get('/plantilla', function () {
     return view('plantilla');
+});
+Route::get('/home', function () {
+    return view('home');
+});
+Route::get('/migraciones', function () {
+    return view('migraciones');
+});
+Route::get('mail', function () {
+    return view('mail');
 });
