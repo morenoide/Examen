@@ -42,7 +42,7 @@
                     pudo, ya que el niño tenía un berrinche y estaba arrojando los cereales contra
                     las paredes. «Tunante», dijo entre dientes el señor Dursley mientras salía de la
                     casa. Se metió en su coche y se alejó del número 4.</p>
-                    <img src="fotos/foto1.jpg" class="img-fluid">
+                    <img src="fotos/eifel.jpg" class="img-fluid">
             </div>
         </div>
     </div>
